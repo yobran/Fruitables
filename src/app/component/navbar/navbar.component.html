@@ -1,0 +1,17 @@
+<div class="main">
+    <div class="logo">
+        <img src="../assets/logo.png" alt="">
+        <p>Fruitables</p>
+    </div>
+    <ul>
+        <li routerLink="/home">home</li>
+        <li>about</li>
+        <li>services</li>
+        <li>contact</li>
+    </ul>
+    <div class="icons">
+        <fa-icon [icon]="faSearch"></fa-icon>
+        <fa-icon [icon]="faShoppingCart"></fa-icon>
+        <fa-icon routerLink="/login" [icon]="faUser"></fa-icon>
+    </div>
+</div>

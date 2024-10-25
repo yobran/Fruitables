@@ -1,0 +1,74 @@
+.main{
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 7rem;
+    width: 100%;
+    position: sticky;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin-top: -10px;
+    box-shadow: 1px 0 2px #252525;
+    border-radius: 15px;
+}
+.main > .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-left: 2rem;
+}
+.main > .logo > img{
+    width: 6rem;
+    height: 6rem;
+    border-radius: 30px;
+}
+.main > .logo > p{
+    text-transform: capitalize;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: rgb(14, 238, 14);
+    font-size: x-large;
+}
+.main > ul{
+    padding-right: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.main > ul > li{
+    list-style: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    text-transform: capitalize;
+}
+.main > ul > li:hover{
+    color: blue;
+    text-decoration: 2px solid underline;
+}
+.main > ul > li:nth-child(1){
+    color: blue;
+    text-decoration: 2px solid underline
+}
+.main > .icons{
+    margin-right: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    color: rgb(14, 238, 14);
+    font-size: large;
+}
+.main > .icons > fa-icon:nth-child(1){
+    border: 2px solid #ff7200;
+    padding: 5px;
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
